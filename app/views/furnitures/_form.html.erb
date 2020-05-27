@@ -1,0 +1,10 @@
+<%= form_with(model: furniture, local: true)do |f| %>
+	<%= f.label :name %>
+	<%= f.text_field :name %><br>
+	<%= f.label :descriptioin %>
+	<%= f.text_area :descriptioin %><br>
+	<%= f.label :price %>
+	<%= f.number_field :price %><br>
+	<%= f.submit %>
+<% end %>
+<hr>
